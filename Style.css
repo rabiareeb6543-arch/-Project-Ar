@@ -1,0 +1,94 @@
+/* Reset & Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Card Layout */
+.profile-card {
+    background-color: #ffffff;
+    max-width: 600px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    border-top: 6px solid #4f46e5;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #1f2937;
+    font-size: 2rem;
+}
+
+header p {
+    color: #6b7280;
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #4f46e5;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #4b5563;
+    line-height: 1.6;
+}
+
+/* List Styling */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+    color: #374151;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+/* Links */
+a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles for Mobile */
+@media (max-width: 480px) {
+    .profile-card {
+        padding: 20px;
+    }
+    header h1 {
+        font-size: 1.5rem;
+    }
+        }
